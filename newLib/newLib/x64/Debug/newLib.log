@@ -1,0 +1,135 @@
+﻿  a.cpp
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_featurestyle.h(89): warning C4251: 'OGRStyleTable::osLastRequestedStyleName': class 'CPLString' needs to have dll-interface to be used by clients of class 'OGRStyleTable'
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\port\cpl_string.h(329): note: see declaration of 'CPLString'
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\port\cpl_json.h(153): warning C4251: 'CPLJSONObject::m_osKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'CPLJSONObject'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_geometry.h(947): warning C4251: 'OGRCurve::ConstIterator::m_poPrivate': class 'std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'OGRCurve::ConstIterator'
+          with
+          [
+              _Ty=OGRCurve::ConstIterator::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_geometry.h(947): note: see declaration of 'std::unique_ptr<OGRCurve::ConstIterator::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=OGRCurve::ConstIterator::Private
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_geometry.h(1066): warning C4251: 'OGRSimpleCurve::Iterator::m_poPrivate': class 'std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'OGRSimpleCurve::Iterator'
+          with
+          [
+              _Ty=OGRSimpleCurve::Iterator::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_geometry.h(1066): note: see declaration of 'std::unique_ptr<OGRSimpleCurve::Iterator::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=OGRSimpleCurve::Iterator::Private
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_geometry.h(1083): warning C4251: 'OGRSimpleCurve::ConstIterator::m_poPrivate': class 'std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'OGRSimpleCurve::ConstIterator'
+          with
+          [
+              _Ty=OGRSimpleCurve::ConstIterator::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_geometry.h(1083): note: see declaration of 'std::unique_ptr<OGRSimpleCurve::ConstIterator::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=OGRSimpleCurve::ConstIterator::Private
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_feature.h(385): warning C4251: 'OGRFeature::FieldValue::m_poPrivate': class 'std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'OGRFeature::FieldValue'
+          with
+          [
+              _Ty=OGRFeature::FieldValue::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_feature.h(385): note: see declaration of 'std::unique_ptr<OGRFeature::FieldValue::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=OGRFeature::FieldValue::Private
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_feature.h(528): warning C4251: 'OGRFeature::ConstFieldIterator::m_poPrivate': class 'std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'OGRFeature::ConstFieldIterator'
+          with
+          [
+              _Ty=OGRFeature::ConstFieldIterator::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogr_feature.h(528): note: see declaration of 'std::unique_ptr<OGRFeature::ConstFieldIterator::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=OGRFeature::ConstFieldIterator::Private
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(137): warning C4251: 'GDALMajorObject::sDescription': class 'CPLString' needs to have dll-interface to be used by clients of class 'GDALMajorObject'
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\port\cpl_string.h(329): note: see declaration of 'CPLString'
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(190): warning C4251: 'GDALDefaultOverviews::osOvrFilename': class 'CPLString' needs to have dll-interface to be used by clients of class 'GDALDefaultOverviews'
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\port\cpl_string.h(329): note: see declaration of 'CPLString'
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(471): warning C4251: 'GDALDataset::Bands::Iterator::m_poPrivate': class 'std::unique_ptr<GDALDataset::Bands::Iterator::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'GDALDataset::Bands::Iterator'
+          with
+          [
+              _Ty=GDALDataset::Bands::Iterator::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(471): note: see declaration of 'std::unique_ptr<GDALDataset::Bands::Iterator::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=GDALDataset::Bands::Iterator::Private
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(658): warning C4251: 'GDALDataset::Layers::Iterator::m_poPrivate': class 'std::unique_ptr<GDALDataset::Layers::Iterator::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'GDALDataset::Layers::Iterator'
+          with
+          [
+              _Ty=GDALDataset::Layers::Iterator::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(658): note: see declaration of 'std::unique_ptr<GDALDataset::Layers::Iterator::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=GDALDataset::Layers::Iterator::Private
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(716): warning C4251: 'GDALDataset::Features::Iterator::m_poPrivate': class 'std::unique_ptr<GDALDataset::Features::Iterator::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'GDALDataset::Features::Iterator'
+          with
+          [
+              _Ty=GDALDataset::Features::Iterator::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(716): note: see declaration of 'std::unique_ptr<GDALDataset::Features::Iterator::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=GDALDataset::Features::Iterator::Private
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(941): warning C4251: 'GDALColorTable::aoEntries': class 'std::vector<GDALColorEntry,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
+          with
+          [
+              _Ty=GDALColorEntry
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(941): note: see declaration of 'std::vector<GDALColorEntry,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=GDALColorEntry
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(1519): warning C4251: 'GDALDriverManager::oMapNameToDrivers': class 'std::map<CPLString,GDALDriver *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
+          with
+          [
+              _Kty=CPLString,
+              _Ty=GDALDriver *
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\gcore\gdal_priv.h(1519): note: see declaration of 'std::map<CPLString,GDALDriver *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=CPLString,
+              _Ty=GDALDriver *
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogrsf_frmts\ogrsf_frmts.h(74): warning C4251: 'OGRLayer::m_poPrivate': class 'std::unique_ptr<OGRLayer::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'OGRLayer'
+          with
+          [
+              _Ty=OGRLayer::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogrsf_frmts\ogrsf_frmts.h(74): note: see declaration of 'std::unique_ptr<OGRLayer::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=OGRLayer::Private
+          ]
+c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogrsf_frmts\ogrsf_frmts.h(81): warning C4251: 'OGRLayer::FeatureIterator::m_poPrivate': class 'std::unique_ptr<OGRLayer::FeatureIterator::Private,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'OGRLayer::FeatureIterator'
+          with
+          [
+              _Ty=OGRLayer::FeatureIterator::Private
+          ]
+  c:\users\ensar\desktop\gdal-2.4.2\gdal-2.4.2\ogr\ogrsf_frmts\ogrsf_frmts.h(81): note: see declaration of 'std::unique_ptr<OGRLayer::FeatureIterator::Private,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=OGRLayer::FeatureIterator::Private
+          ]
+c:\users\ensar\source\repos\newlib\newlib\a.cpp(94): warning C4018: '>=': signed/unsigned mismatch
+c:\users\ensar\source\repos\newlib\newlib\a.cpp(129): warning C4018: '>=': signed/unsigned mismatch
+     Creating library C:\Users\Ensar\source\repos\newLib\x64\Debug\newLib.lib and object C:\Users\Ensar\source\repos\newLib\x64\Debug\newLib.exp
+  newLib.vcxproj -> C:\Users\Ensar\source\repos\newLib\x64\Debug\newLib.dll

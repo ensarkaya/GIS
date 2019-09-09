@@ -1,0 +1,4 @@
+﻿  a.cpp
+c:\users\ensar\source\repos\newlib\newlib\a.h(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     Creating library C:\Users\Ensar\source\repos\newLib\Debug\newLib.lib and object C:\Users\Ensar\source\repos\newLib\Debug\newLib.exp
+  newLib.vcxproj -> C:\Users\Ensar\source\repos\newLib\Debug\newLib.dll

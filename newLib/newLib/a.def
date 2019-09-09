@@ -1,0 +1,11 @@
+LIBRARY newLib
+EXPORTS 
+	size @1
+	interpolation @2
+	readElevationVal @3
+	pathProfile @4
+	lineCheck @5
+	los @6
+	contour @7
+	createSHP @8
+	shapeFile @9
